@@ -3,7 +3,7 @@ Provider of dependencies needed to develop java application using maven profiles
 
 This project has common code needed to start with any Java project using Hibernate and Spring. This can be used for both standalone as well web-applications.
 
-In your project pom simply include this.<br/>
+In your project pom simply include this. (Note: this is not available in maven central. you will need to download this project and do mvn install)<br/>
 &lt;parent&gt;<br/>
 &nbsp;&nbsp;&lt;groupId&gt;com.naik&lt;/groupId&gt;<br/>
 &nbsp;&nbsp;&lt;artifactId&gt;hibspring&lt;/artifactId&gt;<br/>
